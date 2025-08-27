@@ -17,7 +17,7 @@ function Post(form) {
             form.elements.namedItem("tipo").value);
             form.elements.namedItem("mensagem").value;
             console.log("Dados do formulário", data)
-            alert(`Obrigado, ${data.nome}! Sua mensagem ${data.tipo} foi enviada com sucesso`);
+            alert(`Obrigado, ${data.nome}! ${data.tipo} foi enviado(a) com sucesso`);
             form.reset();
 
   }
